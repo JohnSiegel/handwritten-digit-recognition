@@ -52,6 +52,11 @@ class gaussNaiveBayes:
         for i in range(float_input.shape[0]):
             self.calculate_predictions(float_input[i])
             predictions.append(self.choose_prediction())
+        self.class_accuracies = {}
+        for cls in self.classes:
+            label_mask = labels == cls
+            self.class_accuracies[cls] = np.sum(
+                label_mask[np.array(predictions) == cls]) / np.sum(label_mask)
         self.accuracy = np.mean(predictions == labels)
         return np.array(predictions)
 
