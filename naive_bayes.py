@@ -33,7 +33,7 @@ class gaussNaiveBayes:
         return self.prediction
 
     def calculate_predictions(self, input: np.ndarray):
-        alpha = 3e-2
+        alpha = 0.0123
         std = np.array([self.std[cls] for cls in self.classes])
         means = np.array([self.means[cls] for cls in self.classes])
         class_freq_log = np.log(
