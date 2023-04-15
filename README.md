@@ -1,1 +1,1 @@
-[Naive Bayes](https://github.com)
+[Naive Bayes](./exports/naive_bayes.pdf)
