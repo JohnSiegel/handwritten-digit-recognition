@@ -1,3 +1,3 @@
-[Naive Bayes](./exports/naive_bayes.pdf)
+[Naive Bayes](./naive_bayes.ipynb)
 
-[Convolutional Neural Network](./exports/cnn.pdf)
+[Convolutional Neural Network](./cnn.ipynb)
