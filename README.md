@@ -2,4 +2,7 @@
 
 [Convolutional Neural Network](./cnn.ipynb)
 
-[Support Vector Machine](./SVM Ver 2.0 High Accuracy.ipynb)
+[Support Vector Machine](./svm.ipynb)
+
+[K-Nearest Neighbors](./knn.ipynb)
+
