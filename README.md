@@ -4,5 +4,5 @@
 
 [Support Vector Machine](./svm.ipynb)
 
-[K-Nearest Neighbors](./knn.ipynb)
+[K-Nearest Neighbors](./KNN.ipynb)
 
